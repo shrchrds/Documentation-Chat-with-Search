@@ -27,13 +27,16 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     pip install -r requirements.txt```
 
 4. Set up environment variables:
+
     - Create a .env file in the root directory.
     - Add your GROQ API key:
 
-    ```bash GROQ_API_KEY=your_groq_api_key_here ```
+        ```bash GROQ_API_KEY=your_groq_api_key_here ```
 
 5. Usage
 
     1. Run the Streamlit app:
-        ```bash streamlit run app.py```    
+
+        ```bash streamlit run app.py```   
+
     2. Interact with the chat interface:Enter your questions in the chat input box.The assistant will provide answers using the integrated search tools.
