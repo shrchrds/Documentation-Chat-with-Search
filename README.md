@@ -35,5 +35,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 5. Usage
 
     1. Run the Streamlit app:
-        ```bash streamlit run app.py```    
-    2. Interact with the chat interface:Enter your questions in the chat input box.The assistant will provide answers using the integrated search tools.
+       
+        ```bash streamlit run app.py```
+           
+    3. Interact with the chat interface:Enter your questions in the chat input box.The assistant will provide answers using the integrated search tools.
